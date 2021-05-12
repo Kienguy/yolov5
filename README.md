@@ -1,3 +1,8 @@
+This is a modified version of yolov5 that contains modified hyperparameters to more effectively train a ML model for a hackathon project affiliated with the University of Washington
+
+
+
+
 <a align="left" href="https://apps.apple.com/app/id1452689527" target="_blank">
 <img width="800" src="https://user-images.githubusercontent.com/26833433/98699617-a1595a00-2377-11eb-8145-fc674eb9b1a7.jpg"></a>
 &nbsp
