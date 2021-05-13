@@ -3,31 +3,31 @@
 # See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
 
 
-lr0: 0.0107  # initial learning rate (SGD=1E-2, Adam=1E-3)
-lrf: 0.2  # final OneCycleLR learning rate (lr0 * lrf)
-momentum: 0.937  # SGD momentum/Adam beta1
-weight_decay: 0.00051  # optimizer weight decay 5e-4
-warmup_epochs: 2.69  # warmup epochs (fractions ok)
-warmup_momentum: 0.76  # warmup initial momentum
-warmup_bias_lr: 0.111  # warmup initial bias lr
-box: 0.0603  # box loss gain
-cls: 0.522  # cls loss gain
-cls_pw: 1.07  # cls BCELoss positive_weight
-obj: 1.0  # obj loss gain (scale with pixels)
-obj_pw: 1.01  # obj BCELoss positive_weight
+lr0: 0.0111  # initial learning rate (SGD=1E-2, Adam=1E-3)
+lrf: 0.222  # final OneCycleLR learning rate (lr0 * lrf)
+momentum: 0.958  # SGD momentum/Adam beta1
+weight_decay: 0.00052  # optimizer weight decay 5e-4
+warmup_epochs: 2.77  # warmup epochs (fractions ok)
+warmup_momentum: 0.757  # warmup initial momentum
+warmup_bias_lr: 0.113  # warmup initial bias lr
+box: 0.0616  # box loss gain
+cls: 0.584  # cls loss gain
+cls_pw: 1.11  # cls BCELoss positive_weight
+obj: 1.02  # obj loss gain (scale with pixels)
+obj_pw: .913  # obj BCELoss positive_weight
 iou_t: 0.20  # IoU training threshold
-anchor_t: 4.63  # anchor-multiple threshold
-anchors: 2.88  # anchors per output layer (0 to ignore)
+anchor_t: 4.61  # anchor-multiple threshold
+anchors: 2.3  # anchors per output layer (0 to ignore)
 fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)
-hsv_h: 0.0126  # image HSV-Hue augmentation (fraction)
-hsv_s: 0.587  # image HSV-Saturation augmentation (fraction)
-hsv_v: 0.449  # image HSV-Value augmentation (fraction)
+hsv_h: 0.0158  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.575  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.532  # image HSV-Value augmentation (fraction)
 degrees: 0.0  # image rotation (+/- deg)
 translate: 0.82  # image translation (+/- fraction)
-scale: 0.36  # image scale (+/- gain)
+scale: 0.341  # image scale (+/- gain)
 shear: 0.0  # image shear (+/- deg)
 perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
 flipud: 0.0  # image flip up-down (probability)
 fliplr: 0.5  # image flip left-right (probability)
-mosaic: 1.0  # image mosaic (probability)
+mosaic: .967  # image mosaic (probability)
 mixup: 0.0  # image mixup (probability)
